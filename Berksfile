@@ -24,7 +24,7 @@ cookbook 'haproxy', git: 'https://github.com/hw-cookbooks/haproxy.git', ref: 'a4
 cookbook 'composer'
 
 group :wrapper do
-  cookbook 'w_common', git: 'https://github.com/haapp/w_common.git'
+  cookbook 'w_common', git: 'https://github.com/jeremy0001/w_common.git'
   cookbook 'w_apache', path: './'
-  cookbook 'w_nfs', git: 'https://github.com/haapp/w_nfs.git'
+  cookbook 'w_nfs', git: 'https://github.com/jeremy0001/w_nfs.git'
 end
